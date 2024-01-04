@@ -1,12 +1,12 @@
 version: '3'
 services:
   frontend:
-    image: privatesumelabdesarrollo/frontfactura:latest
+    image: sumelabdesarrollo/frontfactura:latest
     ports:
       - "80:80"
 
   backend:
-    image: privatesumelabdesarrollo/apifacturacion:latest
+    image: sumelabdesarrollo/apifacturacion:latest
     ports:
       - "8081:8081"
     environment:
